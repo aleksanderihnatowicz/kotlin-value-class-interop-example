@@ -12,3 +12,22 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+# Intellij Idea project files
+.idea
+*.iml
+*.ipr
+*.iws
+
+# project binaries
+build
+out
+classes
+
+# mac os x
+.DS_Store
+
+# netbeans
+.nb-gradle
+
+/config
